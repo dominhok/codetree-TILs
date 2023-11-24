@@ -3,9 +3,9 @@ cnt1 = 0
 cnt2 = 0
 cnt3 = 0
 
-for i in range(0,n+1):
+for i in range(1,n+1):
     if(i % 12 == 0):
-        cnt1 += 0
+        cnt1 += 1
     else:
         if(i % 3 == 0):
                 cnt2 += 1
