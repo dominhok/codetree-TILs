@@ -1,8 +1,10 @@
 binary = input()
 answer = 0
+val = 1
 # Please write your code here.
 
-for i in binary(::-1):
-    if binary[i] == 1:
-        answer += 2**
+for x in binary[::-1]:
+    answer += int(x) * val
+    val *=2
+
 print(answer)
